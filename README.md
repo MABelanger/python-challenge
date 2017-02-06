@@ -26,18 +26,19 @@ Your task:
 
 This should give you an idea of how we want the data stored:
 
-#initialization
+## Initialization
+```
 objects = []
 ... your parser code here
 ... sort list (if applicable)
-#print the data
+```
+## Print the data
+```
 for obj in objects:
 print obj['year']   # print some basic info here
-
-Please *do not* use the Python 'csv' module.  You are welcome to search the net for hints, but please list the sources/URLs used.
-
-BONUS Task: If there is a column containing a date in this format "Nov 15 2004  9:13:26:186AM", store that date into a python datetime.
-
+```
+- Please *do not* use the Python 'csv' module.  You are welcome to search the net for hints, but please list the sources/URLs used.
+- BONUS Task: If there is a column containing a date in this format "Nov 15 2004  9:13:26:186AM", store that date into a python datetime.
 
 Once completed, please zip and email your results to us.
 
